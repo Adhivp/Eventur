@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet the Team - Eventur Group</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        h1, h2 {
+            text-align: center;
+            margin: 10px 0;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #2d3e50;
+        }
+        h2 {
+            font-size: 1.8rem;
+            color: #2d3e50;
+        }
+        p {
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        /* Header Section */
+        .header {
+            background-color: #2d3e50;
+            color: white;
+            padding: 20px 0;
+        }
+
+        /* Team Section */
+        .team-section {
+            padding: 50px 20px;
+        }
+        .team-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+        .team-member {
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+            padding: 20px;
+            width: 300px;
+            transition: transform 0.3s ease-in-out;
+            animation: fadeIn 1s ease-out;
+        }
+        .team-member:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+        .team-member img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            border: 3px solid #2d3e50;
+        }
+        .team-member h3 {
+            font-size: 1.5rem;
+            margin: 10px 0;
+            color: #2d3e50;
+        }
+        .team-member span {
+            display: block;
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        /* Team Image Section */
+        .team-image {
+            margin: 50px 0;
+            text-align: center;
+        }
+        .team-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <h1>Meet the Team</h1>
+        <p>Welcome to Eventur Group, where innovation meets excellence.</p>
+    </header>
+
+    <!-- Team Section -->
+    <section class="team-section">
+        <h2>Our Leadership</h2>
+        <div class="team-container">
+            <!-- CEO -->
+            <div class="team-member">
+                <img src="ceo.jpg" alt="Adithyan V S">
+                <h3>Adithyan V S</h3>
+                <span>Chief Executive Officer (CEO)</span>
+                <p>Leading Eventur Group towards innovative success.</p>
+            </div>
+
+            <!-- CTO -->
+            <div class="team-member">
+                <img src="cto.jpg" alt="Sreelakshmi P S">
+                <h3>Sreelakshmi P S</h3>
+                <span>Chief Technology Officer (CTO)</span>
+                <p>Driving technological excellence at Eventur Group.</p>
+            </div>
+
+            <!-- CFO -->
+            <div class="team-member">
+                <img src="cfo.jpg" alt="Ajay Aji">
+                <h3>Ajay Aji</h3>
+                <span>Chief Financial Officer (CFO)</span>
+                <p>Ensuring financial stability and growth.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Image Section -->
+    <section class="team-image">
+        <h2>Our Team</h2>
+        <p>United in our mission, diverse in our expertise.</p>
+        <img src="team-photo.jpg" alt="Eventur Group Team">
+    </section>
+</body>
+</html>
